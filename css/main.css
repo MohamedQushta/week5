@@ -1,0 +1,103 @@
+.navbar {
+  width: 100%;
+  /* opacity: ; */
+  position: absolute;
+  z-index: 2;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/bg-image.jpg");
+  background-size: 100% 100%;
+}
+.header-text {
+  z-index: 3;
+  color: white;
+  text-align: center;
+}
+.header-shadow {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.text-animation {
+  position: relative;
+  font-size: 36px;
+  font-weight: bold;
+  overflow: hidden; /* Hide overflowing text */
+}
+
+.address-text {
+  font-size: 20px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+button {
+  color: white;
+  z-index: 3;
+  border-radius: 100px !important;
+  transition: 0.5s;
+  border: solid grey;
+  /* opacity: 0.5; */
+}
+
+button:hover {
+  background-color: grey;
+}
+.icon-container {
+  bottom: 50px;
+  position: absolute;
+  animation: moveDown 1.5s infinite alternate;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}
+.big-icon {
+  font-size: 30px;
+}
+
+.heading {
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+.primary-heading {
+  position: absolute;
+  top: 0px;
+  opacity: 0.3;
+  color: grey;
+  font-size: 70px;
+}
+.secondary-heading {
+  position: absolute;
+  top: 30px;
+  font-size: 30px;
+}
+.secondary-color {
+  color: blue;
+}
+
+.line {
+  position: absolute;
+  top: 70px;
+  width: 60px;
+  border-top: solid blue 3px;
+}
