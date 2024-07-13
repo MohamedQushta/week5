@@ -39,16 +39,25 @@
 .transparent {
   background-color: transparent;
 }
-
+.header button {
+  border: solid grey;
+}
 button {
   color: white;
   z-index: 3;
   border-radius: 100px !important;
   transition: 0.5s;
-  border: solid grey;
+  border: none;
   /* opacity: 0.5; */
 }
 
+.big-numbers {
+  font-size: 50px;
+  opacity: 0.5;
+}
+.border-right {
+  border-right: 0.3px solid;
+}
 button:hover {
   background-color: grey;
 }
@@ -72,6 +81,7 @@ button:hover {
 
 .heading {
   /* width: 50%; */
+  width: 100%;
   display: flex;
   justify-content: center;
   position: relative;
@@ -79,8 +89,11 @@ button:hover {
   text-align: center;
 }
 
+hr {
+  margin-top: 0px;
+}
 .primary-heading {
-  position: absolute;
+  /* position: absolute; */
   top: 0px;
   opacity: 0.3;
   color: grey;
