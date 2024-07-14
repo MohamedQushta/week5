@@ -78,7 +78,26 @@ button:hover {
 .big-icon {
   font-size: 30px;
 }
+.md-icon {
+  font-size: 20px;
+}
+.skill-icon {
+  margin-right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  opacity: 0.6;
+  height: 70px;
+  box-shadow: inset 3px;
+  background: whitesmoke;
+  border-radius: 11px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
 
+.blue-icon {
+  color: rgb(69, 137, 255);
+}
 .heading {
   /* width: 50%; */
   width: 100%;
@@ -113,4 +132,12 @@ hr {
   top: 70px;
   width: 60px;
   border-top: solid blue 3px;
+}
+
+.what-i-do {
+  background-color: rgba(248, 245, 245, 0.616);
+}
+
+h3 {
+  font-weight: 300;
 }
