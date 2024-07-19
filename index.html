@@ -37,6 +37,11 @@
         font-size: 24px;
         text-decoration: none;
       }
+      @media (max-width: 576px) {
+        .border-on-small {
+          border: none !important;
+        }
+      }
     </style>
   </head>
   <body>
@@ -173,25 +178,25 @@
         </div>
         <div class="row">
           <div
-            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-right"
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-start border-end border-on-small"
           >
             <span class="big-numbers">10+</span>
             <span class="text-secondary-emphasis">Years Exprience</span>
           </div>
           <div
-            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-right"
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-start border-end border-on-small"
           >
             <span class="big-numbers">250+</span>
             <span class="text-secondary-emphasis">Happy Clients</span>
           </div>
           <div
-            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-right border-dark"
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-start border-on-small"
           >
             <span class="big-numbers">650+</span>
             <span class="text-secondary-emphasis">Projects Done</span>
           </div>
           <div
-            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5"
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center my-5 border-start border-end border-on-small"
           >
             <span class="big-numbers">38</span>
             <span class="text-secondary-emphasis">Awards Granted</span>
@@ -483,11 +488,10 @@
               class="progress mt-2"
               role="progressbar"
               style="height: 10px"
-              aria-label="Success example"
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            >
+            ></div>
               <div class="progress-bar bg-info" style="width: 80%"></div>
             </div>
           </div>
@@ -525,7 +529,7 @@
               class="progress mt-2"
               role="progressbar"
               style="height: 10px"
-              aria-label="Success example"
+              aria-label="copy example"
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
@@ -610,6 +614,10 @@
           />
         </div>
       </div>
+      <div class="row mx-2"> 
+          
+        </div>
+      </div>
     </section>
     <section>
       <div class="heading mb-5">
@@ -619,7 +627,7 @@
       </div>
       <div class="row mx-4">
         <div class="col-lg-6">
-          <div class="comment-card secondary-bg rounded">
+          <div class="comment-card secondary-bg rounded mt-2">
             <div class="profile-info d-flex">
               <div class="picture-placeholder red"></div>
               <div class="profile-text d-flex flex-column mx-2">
